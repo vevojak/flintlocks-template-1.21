@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flintlocks",
+	"version": "${version}",
+	"name": "flintlocks",
+	"description": "gavin wanted flintlocks so i made flintlocks",
+	"authors": [
+		"vevojak god supreme emperor"
+	],
+	"contact": {
+		"homepage": "https://vevojak.net/",
+		"sources": "https://github.com/vevojakstuff/flintlocks-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/flintlocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jack.flintlocks.Flintlocks"
+		],
+		"fabric-datagen": [
+			"net.jack.flintlocks.FlintlocksDataGenerator"
+		],
+		"client": [
+			"net.jack.flintlocks.FlintlocksClient"
+		]
+	},
+	"mixins": [
+		"flintlocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
