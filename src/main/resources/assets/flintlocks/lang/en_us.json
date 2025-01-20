@@ -1,4 +1,10 @@
 {
   "item.flintlocks.single_barrel_flintlock": "Flintlock",
-  "item.flintlocks.iron_bullet": "Iron Bullet"
+  "item.flintlocks.iron_bullet": "Iron Bullet",
+
+  "block.flintlocks.xbox": "Xbox Series X",
+  "block.flintlocks.gunpowder_block": "Gunpowder Block",
+
+  "itemgroup.flintlocks.flintlocks": "Flintlocks!"
+
 }

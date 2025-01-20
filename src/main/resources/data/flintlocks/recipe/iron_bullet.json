@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "weapon",
+  "cookingtime": 50,
+  "group": "iron_bullets",
+  "ingredient": {
+    "item": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "flintlocks:iron_bullet"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_block"
+    },
+    "G": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "pattern": [
+    "G##",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flintlocks:xbox"
+  }
+}
+

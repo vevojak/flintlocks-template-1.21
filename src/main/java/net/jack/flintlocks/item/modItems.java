@@ -19,9 +19,5 @@ public class modItems {
     public static void RegisterModItems() {
         Flintlocks.LOGGER.info("Mod items from: " + Flintlocks.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register( entries -> {
-         entries.add(SINGLE_BARREL_FLINTLOCK);
-         entries.add(IRON_BULLET);
-        } );
     }
 }
