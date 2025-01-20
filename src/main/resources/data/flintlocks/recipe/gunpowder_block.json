@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "gunpowder",
+  "key": {
+    "#": {
+      "item": "minecraft:gunpowder"
+    }
+    },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flintlocks:gunpowder_block"
+  }
+}
+
