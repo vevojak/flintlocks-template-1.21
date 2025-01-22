@@ -20,8 +20,16 @@ public class modItemGroups {
                    .entries((displayContext, entries) -> {
                        entries.add(modBlocks.XBOX);
                        entries.add(modBlocks.GUNPOWDERBLOCK);
+                       entries.add(modBlocks.GEMSTONE);
+                       entries.add(modBlocks.GEMDEEPSTONE);
                        entries.add(modItems.SINGLE_BARREL_FLINTLOCK);
                        entries.add(modItems.IRON_BULLET);
+                       entries.add(modItems.RED_GEM);
+                       entries.add(modItems.BLUE_GEM);
+                       entries.add(modItems.ORANGE_GEM);
+                       entries.add(modItems.PINK_GEM);
+
+
                    }).build());
 
 

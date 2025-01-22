@@ -1,9 +1,16 @@
 {
   "item.flintlocks.single_barrel_flintlock": "Flintlock",
   "item.flintlocks.iron_bullet": "Iron Bullet",
+  "item.flintlocks.blue_gem": "Ocean Crystal",
+  "item.flintlocks.red_gem": "Blood Mineral",
+  "item.flintlocks.pink_gem": "Cherry Jewel",
+  "item.flintlocks.orange_gem": "Blazing Diamond",
+
 
   "block.flintlocks.xbox": "Xbox Series X",
   "block.flintlocks.gunpowder_block": "Gunpowder Block",
+  "block.flintlocks.gemstone": "Gemstone Ore",
+  "block.flintlocks.gemdeepstone": "Deepslate Gemstone Ore",
 
   "itemgroup.flintlocks.flintlocks": "Flintlocks!"
 

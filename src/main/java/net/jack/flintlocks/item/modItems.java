@@ -11,6 +11,10 @@ public class modItems {
 
     public static final Item SINGLE_BARREL_FLINTLOCK = registerItems("single_barrel_flintlock", new Item(new Item.Settings()));
     public static final Item IRON_BULLET = registerItems("iron_bullet", new Item(new Item.Settings()));
+    public static final Item BLUE_GEM = registerItems("blue_gem", new Item(new Item.Settings()));
+    public static final Item RED_GEM = registerItems("red_gem", new Item(new Item.Settings()));
+    public static final Item ORANGE_GEM = registerItems("orange_gem", new Item(new Item.Settings()));
+    public static final Item PINK_GEM = registerItems("pink_gem", new Item(new Item.Settings()));
 
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Flintlocks.MOD_ID, name), item);
